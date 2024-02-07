@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        try {
+            Ui uiCal = new Ui();
+            uiCal.init();
+        }
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
