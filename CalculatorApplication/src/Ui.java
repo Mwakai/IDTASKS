@@ -15,6 +15,7 @@ public class Ui {
     private final Font textFont;
     private ImageIcon image;
     private ImageCustom imageReturn;
+    private final Calculator calculator;
 
     public Ui() throws IOException {
         frame = new JFrame("Calculator Application");
@@ -54,7 +55,7 @@ public class Ui {
         oneDividedBy = new JButton("1/x");
         cancel = new JButton("C");
 
-        Calculator calc = new Calculator();
+        calculator = new Calculator();
     }
 
     public void init() {
