@@ -5,11 +5,11 @@ import java.io.IOException;
 public class Ui {
     private final JFrame frame;
     private final JPanel panel, panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8;
+    private final JButton button[], add, minus, multiply, divide, equal, cancel, squareRoot, square, oneDividedBy;
 
     private final String[] buttonValue =
             {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
-    private final JButton button[], add, minus, multiply, divide,
-            equal, cancel, squareRoot, square, oneDividedBy;
+
     private final Font font;
     private final JTextArea text;
     private final Font textFont;
