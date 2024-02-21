@@ -1,5 +1,7 @@
 import static java.lang.Double.NaN;
-import static java.lang.Math.*;
+import static java.lang.Math.log;
+import static java.lang.Math.log10;
+import static java.lang.Math.pow;
 
 public class Calculator {
 
